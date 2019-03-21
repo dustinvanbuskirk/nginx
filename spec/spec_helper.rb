@@ -18,4 +18,5 @@ end
 
 AllureRSpec.configure do |c|
     c.output_dir = "/codefresh/volume/allure-results"
+    c.clean_dir = false
 end
